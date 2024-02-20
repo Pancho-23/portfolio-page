@@ -11,7 +11,8 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(135deg, rgb(22, 22, 22), rgb(10, 10, 10)); 
+  background: black; 
+  color: rgb(226,190,116);
 }
 
 .header {
@@ -25,6 +26,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 100px;
+  z-index: 100;
   
 }
 
@@ -59,3 +61,28 @@ body {
   width: 100%;
 }
 
+.image-logo-container img {
+  height: 100vh;
+  box-sizing: border-box;
+  margin-top: 50px;
+  position: fixed;
+}
+
+.rose-container {
+  max-width: 100px;
+}
+
+.rose-container img {
+  max-width: 100%;
+}
+
+.text-container {
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+}
+
+body div {
+  display: inline-block;
+}
